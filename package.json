@@ -7,8 +7,8 @@
   "scripts": {
     "start": "npm run lint && npm run format && npm run test && node index.js",
     "lint": "eslint .",
-    "format": "prettier --write .",
-    "format-check": "prettier --check .",
+    "format": "npx prettier --write .",
+    "format-check": "npx prettier --check .",
     "test": "node_modules/.bin/mocha ./"
   },
   "repository": {
