@@ -4,14 +4,13 @@
   "description": "# Tutorial: Automatisierung und Deployment eines Node.js-Projekts mit Docker, CI/CD und Portainer",
   "main": "index.js",
   "type": "module",
-"scripts": {
-  "start": "npm run lint && npm run format && npm run test && node index.js",
-  "lint": "eslint .",
-  "format": "prettier --write .",
-  "format-check": "prettier --check .",
-  "test": "node_modules/.bin/mocha ./"
-},
-
+  "scripts": {
+    "start": "npm run lint && npm run format && npm run test && node index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "test": "node_modules/.bin/mocha ./"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/roman-hatz-sluz/ict-m324.git"
