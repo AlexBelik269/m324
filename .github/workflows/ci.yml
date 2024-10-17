@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  lint-again-test:
+  lint-format-test:
     if: 1 == 2
     runs-on: ubuntu-latest
     steps:
